@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins';
+    background: #101624;
+    color: white;
+}
+
+/* ****************************    NAV    ******************************** */
+
+.navbar-top {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff;
+    font-weight: 300;
+    transition: 0.5s ease;
+  }
+
+.navbar-nav .nav-link:hover {
+    color: #FFB817; 
+  }
+
+span {
+    color: #ffffff;
+}
+
+/* ****************************    HOME    ******************************** */
+
+#home .bgcolor {
+    background-color: #151c2c;
+    margin:  10px 100px;
+    border-radius: 20px;
+}
+
+#home h1 {
+    font-weight: bold; 
+    color: #FFB817;
+}
+
+#home p {
+    font-weight: 200;
+}
+
+.hbutton a {
+    padding: 10px 60px;
+    transition: 0.5s ease;
+    border: none; 
+}
+
+.hbutton a:hover{
+    padding: 10px 60px;
+    background-color: white;
+    border: none; 
+}
+
+.hbutton button {
+    padding: 10px 50px;
+    transition: 0.5s ease;
+    margin-left: 10px;
+}
+
+.hbutton button:hover {
+    border-color: white;
+    color: #101624;
+    background: none;
+    color: white;
+}
+
+/* ****************************    ABOUT    ******************************** */
+
+#about h1 {
+    font-weight: bold; 
+    color: #FFB817;
+}
+
+#about p {
+    font-weight: 200;
+}
+
+/* ****************************    SERVICES    ******************************** */
+
+#service h1 {
+    font-weight: bold; 
+    color: #FFB817;
+}
+
+#service h5 {
+    color: #FFB817;
+}
+
+#service p {
+    font-weight: 200;
+}
+
+.service1 {
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service1:hover {
+    background-color: #151c2c;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+}
+
+.service2 {
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service2:hover {
+    background-color: #151c2c;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+}
+
+.service3 {
+    padding: 30px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.service3:hover {
+    background-color: #151c2c;
+    padding: 30px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+}
+
+/* ****************************    PORTFOLIO    ******************************** */
+
+#portfolio h1 {
+    font-weight: bold; 
+    color: #FFB817;
+}
+
+#portfolio .row {
+    padding: 3rem;
+}
+
+.image {
+    display: block;
+    width: 100%;
+}
+
+.thumbnail {
+    margin-top: 5px ;
+    transition: transform 0.3s ease-in-out;
+}
+
+.thumbnail:hover {
+    transform: translateY(-10px);
+    transition: .5s ease;
+} 
+
+.pbutton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.pbutton button {
+    padding: 10px 60px;
+    border: none; 
+    transition: 0.5s ease;
+}
+
+.pbutton button:hover {
+    padding: 10px 60px;
+    background-color: white;
+    border: none; 
+}
+
+/* ****************************    CONTACT    ******************************** */
+
+#contact h1 {
+    font-weight: bold; 
+    color: #FFB817;
+}
+
+.info {
+    font-weight: 200;
+}
+
+.info i {
+    color: #FFB817;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+#contact .row {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 100px;
+}
+
+#contact form a {
+    padding: 10px 60px;
+    border: none; 
+    transition: 0.5s ease;
+}
+
+#contact form a:hover {
+    padding: 10px 60px;
+    background-color: white;
+    border: none; 
+}
+
+/* ****************************    FOOTER    ******************************** */
+
+.footer-bottom{
+	width: 100%;
+	padding: 25px 0;
+	text-align: center;
+	color: #ffffff7f;
+	background: #151c2c;
+    font-weight: 200;
+    font-size: small;
+    letter-spacing: 2px;
+}
